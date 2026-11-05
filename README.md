@@ -26,6 +26,31 @@ A modern React-based web dashboard for visually managing and inspecting Terrafor
 
 ---
 
+## UI & Design System
+
+This project uses the following technologies and tools to build and maintain its user interface.
+
+### Styling
+- **Tailwind CSS** – Utility-first CSS framework for styling and responsive layouts.
+- **JetBrains Mono** – Monospaced typeface used throughout the interface.
+
+### UI Components
+- **shadcn/ui** – Reusable and accessible UI components built on Radix UI and Tailwind CSS.
+
+### Forms & Validation
+- **React Hook Form** – Form state management and handling.
+- **Zod** – Schema-based validation and type-safe form validation.
+- **@hookform/resolvers** – Integration between React Hook Form and Zod.
+
+### Development Guidelines
+- Prefer reusable and composable UI components.
+- Maintain consistent spacing, typography, and color usage.
+- Prioritize accessibility and responsive design.
+- Keep form validation schemas separate from UI presentation when appropriate.
+- Follow the existing project conventions when introducing new components or dependencies.
+
+---
+
 ## Local Development Setup
 
 1. **Clone & Install Dependencies:**
